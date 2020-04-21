@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Personality_Quiz_list" mc:Ignorable="d" x:Class="Personality_Quiz_list.MainPage" x:Name="View">
+
+    <StackLayout x:Name="quizContent">
+        <StackLayout  Margin="0,30,0,0">
+            <Image Source="StarWars.png" Margin="10,40,10,30"/>
+
+            <ListView ItemsSource="{x:Static local:Question.All}" x:Name="questionList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Margin="10">
+                                <Label Text="{Binding Content}"/>
+
+                                <Button x:Name="True" Text="True" HorizontalOptions="EndAndExpand" Clicked="True_Clicked" CommandParameter="{Binding .}"/>
+                                <Button x:Name="False" Text="False" Clicked="False_Clicked" CommandParameter="{Binding .}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+            
+       
+        <StackLayout>
+            <Label Text="{Binding Result}"/>
+            <Button Text="Get Results" FontSize="Large" Clicked="Button_Clicked_Results" Margin="30"/>
+            
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

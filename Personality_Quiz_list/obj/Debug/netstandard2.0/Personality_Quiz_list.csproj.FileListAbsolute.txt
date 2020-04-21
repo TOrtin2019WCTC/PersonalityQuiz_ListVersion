@@ -1,0 +1,14 @@
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/bin/Debug/netstandard2.0/Personality_Quiz_list.deps.json
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/bin/Debug/netstandard2.0/Personality_Quiz_list.dll
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/bin/Debug/netstandard2.0/ref/Personality_Quiz_list.dll
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/bin/Debug/netstandard2.0/Personality_Quiz_list.pdb
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/obj/Debug/netstandard2.0/Personality_Quiz_list.AssemblyInfoInputs.cache
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/obj/Debug/netstandard2.0/Personality_Quiz_list.AssemblyInfo.cs
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/obj/Debug/netstandard2.0/Personality_Quiz_list.dll
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/obj/Debug/netstandard2.0/ref/Personality_Quiz_list.dll
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/obj/Debug/netstandard2.0/Personality_Quiz_list.pdb
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/obj/Debug/netstandard2.0/Personality_Quiz_list.csprojAssemblyReference.cache
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/obj/Debug/netstandard2.0/Results.xaml.g.cs
