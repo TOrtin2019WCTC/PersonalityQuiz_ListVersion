@@ -5,7 +5,7 @@
         <StackLayout  Margin="0,30,0,0">
             <Image Source="StarWars.png" Margin="10,40,10,30"/>
 
-            <ListView ItemsSource="{x:Static local:Question.All}" x:Name="questionList">
+            <ListView ItemsSource="{x:Static local:Question.All}" VerticalOptions="FillAndExpand" x:Name="questionList" HasUnevenRows="True" SeparatorVisibility="None">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

@@ -44,12 +44,12 @@ namespace Personality_Quiz_list
            
         }
 
-        void False_Clicked(System.Object sender, System.EventArgs e)
+        void False_Clicked(Object sender, EventArgs e)
         {
             var button = (Button)sender;
             Question question = button.CommandParameter as Question;
-            Question.All.Remove(question);
 
+            Question.All.Remove(question);
             questionList.ItemsSource = "";
             questionList.ItemsSource = Question.All;
 
