@@ -5,7 +5,7 @@ namespace Personality_Quiz_list
     {
         public static string BaseAddress = "https://swapi.dev";
         public static string StarWarsUrl = BaseAddress + "/api/people/?search=";
-        //public static string StarWarsUrl = BaseAddress + "/api/people/";
+        
 
     }
 }
