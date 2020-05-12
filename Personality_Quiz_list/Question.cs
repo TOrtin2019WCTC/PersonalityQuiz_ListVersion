@@ -34,11 +34,11 @@ namespace Personality_Quiz_list
 
             List<Question> all = new List<Question>
             {
-                new Question("Do you like ruining others people's lives?", 1),
-                new Question("Do you like saving the galaxy?", 3),
-                new Question("Have you ever accidentally kissed your sister on the lips?", 4),
-                new Question("Are you awkward?", 20),
-                new Question("Do you enjoy when the bad guys win?", 1)
+                new Question("You like ruining others people's lives", 1),
+                new Question("You like saving the galaxy?", 3),
+                new Question("You have accidentally kissed your sister on the lips", 4),
+                new Question("You are awkward", 20),
+                new Question("You enjoy when the bad guys win", 1)
             };
 
             All = all;

@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{A73D3BE9-A1B7-409D-9190-4145177687DA}|Default">
   <MonoDevelop.Ide.ItemProperties.Personality__Quiz__list.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E19D1629-F87B-4B04-B7DA-51618009749D" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Personality_Quiz_list/Results.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Personality_Quiz_list/Question.cs">
     <Files>
-      <File FileName="Personality_Quiz_list/MainPage.xaml" Line="28" Column="100" />
-      <File FileName="Personality_Quiz_list/MainPage.xaml.cs" Line="19" Column="23" />
+      <File FileName="Personality_Quiz_list/MainPage.xaml" Line="21" Column="73" />
+      <File FileName="Personality_Quiz_list/MainPage.xaml.cs" />
       <File FileName="Personality_Quiz_list/AssemblyInfo.cs" />
-      <File FileName="Personality_Quiz_list/Question.cs" Line="29" Column="16" />
-      <File FileName="Personality_Quiz_list/Results.xaml" Line="7" Column="71" />
-      <File FileName="Personality_Quiz_list/Results.xaml.cs" Line="17" Column="51" />
+      <File FileName="Personality_Quiz_list/Question.cs" Line="41" Column="62" />
+      <File FileName="Personality_Quiz_list/Results.xaml" />
+      <File FileName="Personality_Quiz_list/Results.xaml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,6 +15,7 @@
           <Node name="Personality_Quiz_list" expanded="True">
             <Node name="Personality_Quiz_list" expanded="True">
               <Node name="MainPage.xaml" expanded="True" />
+              <Node name="Question.cs" selected="True" />
               <Node name="Results.xaml" expanded="True" />
             </Node>
             <Node name="Personality_Quiz_list.iOS" expanded="True">
