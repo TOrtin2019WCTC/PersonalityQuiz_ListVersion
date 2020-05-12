@@ -35,9 +35,8 @@
             
        
         <StackLayout>
-            <Label Text="{Binding Result}"/>
             <Button Text="Get Results" FontSize="Large" Clicked="Button_Clicked_Results" Margin="30"/>
-            
+
         </StackLayout>
     </StackLayout>
 

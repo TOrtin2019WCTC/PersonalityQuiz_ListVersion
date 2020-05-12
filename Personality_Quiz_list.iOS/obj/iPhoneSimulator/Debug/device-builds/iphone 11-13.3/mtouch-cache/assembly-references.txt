@@ -24,3 +24,4 @@
 /Users/tim/.nuget/packages/xamarin.forms/4.3.0.908675/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
 /Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list/bin/Debug/netstandard2.0/Personality_Quiz_list.dll
 /Users/tim/.nuget/packages/xamarin.forms/4.3.0.908675/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
+/Users/tim/.nuget/packages/newtonsoft.json/12.0.3/lib/netstandard2.0/Newtonsoft.Json.dll

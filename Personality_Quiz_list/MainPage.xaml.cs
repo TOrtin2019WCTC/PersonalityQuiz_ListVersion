@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Personality_Quiz_list.Data;
 using Xamarin.Forms;
 
 namespace Personality_Quiz_list
@@ -18,6 +19,7 @@ namespace Personality_Quiz_list
         public static string Character { get; set; }
         public static string Image { get; set; }
         public string Result { get; set; }
+        
  
 
         public MainPage()
@@ -56,10 +58,10 @@ namespace Personality_Quiz_list
 
         }
 
-
+        // Method now uses API to get the character name, then adds it to the main Character string. There are no pictures in the API.
         async void Button_Clicked_Results(Object sender, EventArgs e)
         {
-
+            string character = string.Empty;
             
 
             Button b = (Button)sender;
@@ -67,38 +69,41 @@ namespace Personality_Quiz_list
 
             if (Points <= 2 || Points == 22)
             {
-                Character = "You are Emporer Palpatine";
+                character = await App.SWManager.GetCharacter("Palpatine");
                 Image = "Palpatine.jpg";
 
             }
             else if (Points == 20)
             {
-                Character = "You are Jar Jar Binks";
+                character = await App.SWManager.GetCharacter("Binks");
                 Image = "binks.jpg";
 
             }
             else if (Points == 7 || Points == 27)
             {
-                Character = "You are Luke Skywalker";
+                character = await App.SWManager.GetCharacter("Luke Skywalker");
                 Image = "Skywalker.png";
             }
             else if (Points == 3 || Points == 23)
             {
-                Character = "You are Princess Leia";
+                character = await App.SWManager.GetCharacter("Leia"); ;
                 Image = "Leia.jpg";
             }
             else
             {
-                Character = "You are Darth Vader";
+                character = await App.SWManager.GetCharacter("Vader"); ;
                 Image = "Vader.jpg";
             }
 
-            
+
+            Character = $"You are {character}";
 
             await Navigation.PushModalAsync(new Results());
 
 
         }
+
+      
     }
 
    

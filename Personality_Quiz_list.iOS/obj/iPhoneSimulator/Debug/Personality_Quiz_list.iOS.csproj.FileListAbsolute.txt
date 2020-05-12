@@ -58,3 +58,4 @@
 /Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list.iOS/obj/iPhoneSimulator/Debug/Personality_Quiz_list.iOS.pdb
 /Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/Skywalker.png
 /Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-13.3/optimized/StarWars.png
+/Users/tim/Desktop/Repos/Personality_Quiz_list/Personality_Quiz_list.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
